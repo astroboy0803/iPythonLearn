@@ -2,18 +2,6 @@ import math
 import decimal
 import random
 
-var1 = 1
-var2 = 10
-print(var1, var2)
-del var1, var2
-# delete後就不見, 故存取會出現compiler error
-# print(var1, var2)
-
-# 重新給值後才可以再次使用
-var1 = "var1"
-var2 = "var2"
-print(var1, var2)
-
 # integer
 iDA = 1 # 10進制
 iHA = 0xA # 16進制
